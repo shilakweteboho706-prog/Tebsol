@@ -1,0 +1,100 @@
+export default function GraduateStoryLandingPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-purple-700 via-pink-600 to-orange-400 text-white font-sans">
+      {/* Hero Section */}
+      <section className="flex flex-col items-center justify-center text-center px-6 py-24">
+        <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+          Your Graduation Story <br />
+          Deserves To Be Told 🎓
+        </h1>
+
+        <p className="text-lg md:text-2xl max-w-3xl mb-8 text-white/90">
+          We turn your university journey into a beautiful, emotional and professional story you can proudly post on WhatsApp, Instagram and Facebook.
+        </p>
+
+        <button className="bg-white text-purple-700 px-8 py-4 rounded-2xl text-lg font-bold shadow-2xl hover:scale-105 transition duration-300">
+          Book Your Story Today
+        </button>
+      </section>
+
+      {/* Features */}
+      <section className="grid md:grid-cols-3 gap-6 px-6 md:px-20 py-16">
+        <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-xl hover:scale-105 transition duration-300">
+          <h2 className="text-2xl font-bold mb-4">✨ Personal Stories</h2>
+          <p className="text-white/90">
+            We write custom stories based on your real university journey, struggles and achievements.
+          </p>
+        </div>
+
+        <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-xl hover:scale-105 transition duration-300">
+          <h2 className="text-2xl font-bold mb-4">📸 Social Media Ready</h2>
+          <p className="text-white/90">
+            Perfect captions and story layouts ready for WhatsApp, Instagram and Facebook posts.
+          </p>
+        </div>
+
+        <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 shadow-xl hover:scale-105 transition duration-300">
+          <h2 className="text-2xl font-bold mb-4">💜 Memories Forever</h2>
+          <p className="text-white/90">
+            Celebrate your hard work with words that truly capture your journey and success.
+          </p>
+        </div>
+      </section>
+
+      {/* Sample Story */}
+      <section className="px-6 md:px-20 py-20">
+        <div className="bg-white text-gray-800 rounded-3xl p-10 shadow-2xl max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold mb-6 text-center text-purple-700">
+            Sample Graduate Story 🎓
+          </h2>
+
+          <p className="text-lg leading-9 text-gray-700">
+            "There were days I wanted to give up. Long nights, stress, financial struggles and moments of doubt. But through every challenge, I kept going. Today I stand proud as a graduate — not because the journey was easy, but because I refused to quit. This qualification is more than a certificate; it is proof that dreams are possible when you stay determined."
+          </p>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section className="py-20 px-6 md:px-20">
+        <h2 className="text-4xl font-bold text-center mb-12">
+          Affordable Packages 💸
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="bg-white/10 rounded-3xl p-8 backdrop-blur-lg shadow-xl text-center">
+            <h3 className="text-2xl font-bold mb-4">Basic</h3>
+            <p className="text-5xl font-extrabold mb-4">R50</p>
+            <p className="mb-6">Short graduation story</p>
+            <button className="bg-white text-purple-700 px-6 py-3 rounded-xl font-bold hover:scale-105 transition">
+              Choose
+            </button>
+          </div>
+
+          <div className="bg-white text-purple-700 rounded-3xl p-8 shadow-2xl text-center scale-105">
+            <h3 className="text-2xl font-bold mb-4">Premium</h3>
+            <p className="text-5xl font-extrabold mb-4">R120</p>
+            <p className="mb-6">Full emotional story + captions</p>
+            <button className="bg-purple-700 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition">
+              Most Popular
+            </button>
+          </div>
+
+          <div className="bg-white/10 rounded-3xl p-8 backdrop-blur-lg shadow-xl text-center">
+            <h3 className="text-2xl font-bold mb-4">VIP</h3>
+            <p className="text-5xl font-extrabold mb-4">R200</p>
+            <p className="mb-6">Story + design + social media package</p>
+            <button className="bg-white text-purple-700 px-6 py-3 rounded-xl font-bold hover:scale-105 transition">
+              Choose
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="text-center py-10 text-white/80 border-t border-white/20">
+        <p className="text-lg font-semibold">Graduate Story Studio 🎓</p>
+        <p>Turning memories into beautiful stories.</p>
+      </footer>
+    </div>
+  );
+}
